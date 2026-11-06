@@ -1,0 +1,13 @@
+# Pinned on day one (handoff). Tested with Qiskit 2.6.1.
+qiskit==2.6.1
+numpy>=2.0,<3
+scipy>=1.14
+pillow>=11
+
+# Backend API (added as the FastAPI layer lands)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.18
+
+# Dev
+pytest>=8
